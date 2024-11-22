@@ -47,7 +47,8 @@ bash
 Copy code
 cd DAA-Lab
 
-##Author
-SAKTHIVEL BALAJI C
-Student ID: 2116231801505
-Rajalakshmi Engineering College
+## Author
+
+**Sakthivel Balaji C**  
+**Student ID:** 2116231801505  
+**Rajalakshmi Engineering College**
