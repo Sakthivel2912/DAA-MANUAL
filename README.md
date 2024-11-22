@@ -46,69 +46,8 @@ Navigate to the Directory
 bash
 Copy code
 cd DAA-Lab
-Compile the Programs Use any C compiler to compile the .c files. For example:
-bash
-Copy code
-gcc program_name.c -o program_name
-./program_name
-Examples
-Example: Fibonacci Series Calculation
-c
-Copy code
-#include<stdio.h>
-int main(){
-    int n, a = 0, b = 1, c;
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++) {
-        c = a + b;
-        a = b;
-        b = c;
-    }
-    printf("%d", a);
-    return 0;
-}
-Example: Quick Sort Implementation
-c
-Copy code
-#include <stdio.h>
-void quickSort(int[], int, int);
-int partition(int[], int, int);
-int main() {
-    int arr[100], n;
-    scanf("%d", &n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-    quickSort(arr, 0, n-1);
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    return 0;
-}
-void quickSort(int arr[], int low, int high) {
-    if (low < high) {
-        int pi = partition(arr, low, high);
-        quickSort(arr, low, pi - 1);
-        quickSort(arr, pi + 1, high);
-    }
-}
-int partition(int arr[], int low, int high) {
-    int pivot = arr[high];
-    int i = (low - 1);
-    for (int j = low; j < high; j++) {
-        if (arr[j] < pivot) {
-            i++;
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-        }
-    }
-    int temp = arr[i + 1];
-    arr[i + 1] = arr[high];
-    arr[high] = temp;
-    return (i + 1);
-}
-Author
-Vignesh R
-Student ID: 2116231801508
+
+##Author
+SAKTHIVEL BALAJI C
+Student ID: 2116231801505
 Rajalakshmi Engineering College
