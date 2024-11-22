@@ -40,8 +40,8 @@ This repository contains programs and solutions related to **Design and Analysis
 ## How to Use
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-repo-name/DAA-Lab.git
+   ```bash[
+   git clone https://github.com/your-repo-name/DAA-Lab.git](https://github.com/Sakthivel2912/DAA-MANUAL.git)
 Navigate to the Directory
 bash
 Copy code
